@@ -82,6 +82,22 @@ button:focus {
   backdrop-filter: blur(15px) !important;
 }
 
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
