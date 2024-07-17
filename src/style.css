@@ -273,7 +273,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /*background-image: var(--image-gradient), url(./Assets/home-bg.jpg);*/
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -301,7 +301,7 @@ button:focus {
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
+  font-size: 2em !important;
   color: #be6adf !important;
   font-weight: 600 !important;
 }
@@ -314,10 +314,13 @@ button:focus {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
+    position: relative !important;
   }
   .Typewriter__cursor {
     display: none !important;
+  }
+  .Typewriter-title{
+    padding-bottom: 2em;
   }
 }
 
