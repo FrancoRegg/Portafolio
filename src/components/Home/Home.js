@@ -2,7 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Home2 from "./Home2";
-import Type from "./Type";
+import { AiOutlineDownload } from "react-icons/ai";
+import Button from "react-bootstrap/Button";
+import CV from "../../Assets/CV Franco Programación.pdf";
+//import Type from "./Type";
 
 function Home() {
   return (
@@ -26,6 +29,14 @@ function Home() {
               {/*<div style={{ padding: 50, textAlign: "left" }}> 
                 <Type />
               </div>*/}
+              <Button 
+                variant="primary"
+                href={CV}
+                target="_blank"
+                style={{ maxWidth: "250px" }}>
+                <AiOutlineDownload style={{ marginRight: "8px" }}/>
+                Descarga CV
+              </Button>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
