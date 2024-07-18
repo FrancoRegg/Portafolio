@@ -5,7 +5,8 @@ import Home2 from "./Home2";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 import CV from "../../Assets/CV Franco Programación.pdf";
-//import Type from "./Type";
+import Type from "./Type";
+
 
 function Home() {
   return (
@@ -14,21 +15,15 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                ¡Hola a todos!{" "}
+              <h1 className="heading-name">
+                ¡Hola, me llamo<strong className="main-name"> Franco Reggiardo!</strong>
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
-
-              <h1 className="heading-name">
-                Mi nombre es
-                <strong className="main-name"> Franco.</strong>
-                <br/>Soy <strong className="main-name"> Desarrollador Full Stack</strong>
-              </h1>
-              {/*<div style={{ padding: 50, textAlign: "left" }}> 
+              <div style={{ padding: 50, textAlign: "left" }}> 
                 <Type />
-              </div>*/}
+              </div>
               <Button 
                 variant="primary"
                 href={CV}
