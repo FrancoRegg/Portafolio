@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/sin-fondo.png";
 import Home2 from "./Home2";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
@@ -16,10 +16,11 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 className="heading-name">
-                ¡Hola, me llamo<strong className="main-name"> Franco Reggiardo!</strong>
+                ¡Hola, 
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
+                <br/>soy<strong className="main-name"> Franco Reggiardo!</strong>
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}> 
                 <Type />
