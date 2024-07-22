@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/sin-fondo.png";
+import homeLogo from "../../Assets/home-main.svg";
 import Home2 from "./Home2";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
@@ -12,6 +12,7 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
+        
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
