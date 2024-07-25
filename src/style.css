@@ -295,19 +295,20 @@ button:focus {
   font-size: 2.5em !important;
   padding-left: 45px !important;
 }
-
+/* color: #cd5ff8; Color de mi nombre*/
 .main-name {
-  color: #cd5ff8;
+  color: #F6E35D;
 }
-
+/* color: #be6adf !important; Color de types*/
 .Typewriter__wrapper {
   font-size: 2em !important;
-  color: #be6adf !important;
+  color: #95A6A2;
   font-weight: 600 !important;
 }
+/* Color del cursor */
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #92a8a2 !important;
 }
 
 @media (max-width: 767px) {
@@ -381,7 +382,7 @@ button:focus {
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
-
+/* background: #68187a; */
 .home-social-icons::before {
   content: "";
   position: absolute;
@@ -390,21 +391,23 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #29557c;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
 }
-
+/* box-shadow: 0 0 15px #801f95; */
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #3681c3;
 }
-
-.home-social-icons:hover {
-  color: #87209e;
+/*color: #87209e;
   box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  text-shadow: 0 0 2px #87209e;*/
+.home-social-icons:hover {
+  color:#074d89;
+  box-shadow: 0 0 5px #074d89;
+  text-shadow: 0 0 2px #074d89;
 }
 
 .social-icons {
@@ -412,9 +415,9 @@ button:focus {
   padding-right: 15px;
   padding-left: 15px;
 }
-
+/* color: #700c86 !important; */
 .icon-colour {
-  color: #700c86 !important;
+  color: #2591ef;
 }
 
 /* --------- */
