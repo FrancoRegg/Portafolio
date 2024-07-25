@@ -60,23 +60,23 @@ button:focus {
   background: #09355A;
 }
 
-/* Handle */
+/* Handle background: rgba(178, 121, 216, 0.959); */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #6aa7dc;
   border-radius: 12px;
 }
 
-/* Handle on hover */
+/* Handle on hover background: rgba(222, 130, 235, 0.911); */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: #3aa0fa;
   border-radius: 12px;
 }
 
 /* --------- */
-/* Navbar Section  */
+/* Navbar Section background-color: #1b1a2ea9 !important; */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #192631 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -110,10 +110,10 @@ button:focus {
   background-color: transparent !important;
   border-color: transparent !important;
 }
-/* */
+/* background-color: #be50f4 !important; */
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important; 
+  background-color: #54a8f0 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -155,12 +155,12 @@ button:focus {
   transform: rotate(-135deg) !important;
   opacity: 0.9 !important;
 }
-
+/* background-color: #181a27 !important; Navbar en responsive */
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #192631 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -202,7 +202,7 @@ button:focus {
   position: relative;
   z-index: 1;
 }
-
+/*background: #c95bf5*/
 .navbar-nav .nav-item a::after {
   content: "";
   position: relative;
@@ -210,7 +210,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #38809d;/*#c95bf5*/
+  background: #38809d;
   bottom: 1px;
   left: 0;
   z-index: -1;
