@@ -26,11 +26,11 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}> 
                 <Type />
               </div>
-              <Button 
+              <Button                
                 variant="primary"
                 href={CV}
                 target="_blank"
-                style={{ maxWidth: "250px" }}>
+                style={{ borderWidth:"medium", maxWidth:"250px" }}>
                 <AiOutlineDownload style={{ marginRight: "8px" }}/>
                 Descarga CV
               </Button>
