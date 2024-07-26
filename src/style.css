@@ -543,14 +543,14 @@ button:focus {
   /*background-color: #623686 !important;
   border-color: #623686 !important;*/
   background-color: transparent !important;
-  border-color: #95A6A2 !important
+  border-color: #95A6A2 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
   /*background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important;*/
-  background-color: transparent !important;
+  background-color: #234a6c !important;
   box-shadow: 0 0 15px #3681c3;
 }
 .btn:focus {
@@ -572,7 +572,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /*background-image: var(--section-background-color) !important;*/
   color: white !important;
 }
 
