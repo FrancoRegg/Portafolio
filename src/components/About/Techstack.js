@@ -6,6 +6,7 @@ import {
   DiNodejs,
   DiPython,
   DiGit,
+  DiBootstrap
 } from "react-icons/di";
 import {
   SiPostgresql,
@@ -20,16 +21,13 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
@@ -38,7 +36,13 @@ function Techstack() {
         <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiJest />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
       </Col>
     </Row>
   );
