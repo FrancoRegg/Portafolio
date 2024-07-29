@@ -30,7 +30,7 @@ function Home() {
                 variant="primary"
                 href={CV}
                 target="_blank"
-                style={{ borderWidth:"medium", maxWidth:"250px" }}>
+                style={{ borderWidth:"medium", maxWidth:"250px", marginLeft: "50px" }}>
                 <AiOutlineDownload style={{ marginRight: "8px" }}/>
                 Descarga CV
               </Button>
