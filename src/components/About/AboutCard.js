@@ -1,40 +1,24 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <div>
+            <p>
+              ¡Soy Franco! Incursione al mundo de la Programación por curiosidad. Desde entonces disfruto creando experiencias web para los usuarios.
+            </p>
+            <br/>
+            <p>
+              Entre mis éxitos destaco que durante el Bootcamp de 4Geeks Academy, comprendí que <span className="purple">trabajando en equipo se puede llegar muy lejos</span>. Ayudé a mis compañeros a interiorizar conceptos y a ponerlos en práctica.
+            </p>
+            <br/>
+            <p>
+              <span className="purple">Cuento con experiencia desarrollando aplicaciones web</span>, y actualmente estoy creando una iniciativa para colaborar en la sociedad. Donde cada persona pueda contar con apoyo para avanzar un paso más en su camino de vida. 
+            </p>
+          </div>
         </blockquote>
       </Card.Body>
     </Card>
