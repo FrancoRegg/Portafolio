@@ -25,7 +25,7 @@ function Projects() {
               imgPath={palante}
               isBlog={false}
               title="Pa'lante"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Esta aplicación está en proceso... Su fin es ayudar al usuario a encontrar soluciones para sus problemas emocionales. Aquí puede conectar con profesionales de la rama de la psicología y, además, puede encontrar personas con historias similares a la suya."
               ghLink="https://github.com/FrancoRegg/Pa-lante"
             />
           </Col>
