@@ -65,16 +65,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre mi
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -82,6 +72,16 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Proyectos
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre mi
               </Nav.Link>
             </Nav.Item>
 
