@@ -2,14 +2,9 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import { Link } from "react-router-dom";
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
+import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
 
-function NavBar() {
+function NavBar({ scrollToHome, scrollToProjects, scrollToAbout }) {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -44,32 +39,32 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link 
-                as={Link} 
-                to="/" 
-                onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                onClick={() => {
+                  scrollToHome();
+                  updateExpanded(false);
+                }}
+              >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Inicio
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
+                onClick={() => {
+                  scrollToProjects();
+                  updateExpanded(false);
+                }}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
+                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
                 Proyectos
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
+                onClick={() => {
+                  scrollToAbout();
+                  updateExpanded(false);
+                }}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre mi
               </Nav.Link>
@@ -82,3 +77,4 @@ function NavBar() {
 }
 
 export default NavBar;
+
