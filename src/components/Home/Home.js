@@ -5,13 +5,12 @@ import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 import CV from "../../Assets/CV Franco Programación.pdf";
 import Type from "./Type";
-
+import ContactMe from "./Contact";
 
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
-        
+      <Container fluid className="home-section">
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -33,8 +32,8 @@ function Home() {
                 <AiOutlineDownload style={{ marginRight: "8px" }}/>
                 Descarga CV
               </Button>
+              <ContactMe />
             </Col>
-
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
