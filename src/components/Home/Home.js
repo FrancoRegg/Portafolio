@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
-import Home2 from "./Home2";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 import CV from "../../Assets/CV Franco Programación.pdf";
@@ -47,7 +46,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
     </section>
   );
 }
