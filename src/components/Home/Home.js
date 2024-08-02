@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
-import CV from "../../Assets/CV Franco Programación.pdf";
+import CV from "../../Assets/programacion CV.pdf";
 import Type from "./Type";
 import ContactMe from "./Contact";
 
