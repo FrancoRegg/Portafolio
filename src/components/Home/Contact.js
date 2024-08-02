@@ -8,9 +8,9 @@ import { SiGmail } from "react-icons/si";
 
 const ContactMe = () => {
   return (
-    <Container fluid className="home-about-section">
+    <Container className="home-about-section-contact">
       <Row>
-        <Col md={12} className="home-about-social">
+        <Col md={4} className="home-about-social-contact">
           <ul className="home-about-social-links">
             <li className="social-icons">
               <a
