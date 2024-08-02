@@ -22,7 +22,7 @@ function Home() {
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}> 
                 <p style={{ fontSize: "1.2em" }}>
-                  Desarrollador Full Stack. De Barcelona, España. Me encanta resolver problemas cotidianos con líneas de código.
+                  <span className="yellow">Desarrollador Full Stack.</span> <span className="orange">De Barcelona, España.</span> Me encanta resolver problemas cotidianos con líneas de código.
                 </p>
               </div>
               <Button                
