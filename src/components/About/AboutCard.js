@@ -12,11 +12,11 @@ function AboutCard() {
             </p>
             <br/>
             <p>
-              Entre mis éxitos destaco que durante el Bootcamp de 4Geeks Academy, comprendí que <span className="purple">trabajando en equipo se puede llegar muy lejos</span>. Ayudé a mis compañeros a interiorizar conceptos y a ponerlos en práctica.
+              Entre mis éxitos destaco que durante el Bootcamp de 4Geeks Academy, comprendí que <span className="yellow">trabajando en equipo se puede llegar muy lejos</span>. Ayudé a mis compañeros a interiorizar conceptos y a ponerlos en práctica.
             </p>
             <br/>
             <p>
-              <span className="purple">Cuento con experiencia desarrollando aplicaciones web</span>, y actualmente estoy creando una iniciativa para colaborar en la sociedad. Donde cada persona pueda contar con apoyo para avanzar un paso más en su camino de vida. 
+              <span className="yellow">Cuento con experiencia desarrollando aplicaciones web</span>, y actualmente estoy creando una iniciativa para colaborar en la sociedad. Donde cada persona pueda contar con apoyo para avanzar un paso más en su camino de vida. 
             </p>
           </div>
         </blockquote>

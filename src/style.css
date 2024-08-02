@@ -14,7 +14,7 @@ html {
   --imp-text-color: #f6da07;
 }
 
-.purple {
+.yellow {
   color: var(--imp-text-color) !important;
 }
 
@@ -336,6 +336,8 @@ button:focus {
     padding-bottom: 2em !important;
   }
 }
+
+/* ---- Contact ---- */
 
 .home-about-section-contact {
   position: relative;

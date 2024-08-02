@@ -4,7 +4,6 @@ import homeLogo from "../../Assets/home-main.svg";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 import CV from "../../Assets/programacion CV.pdf";
-import Type from "./Type";
 import ContactMe from "./Contact";
 
 function Home() {
@@ -22,7 +21,9 @@ function Home() {
                 <br/>soy<strong className="main-name"> Franco Reggiardo!</strong>
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}> 
-                <Type />
+                <p style={{ fontSize: "1.2em" }}>
+                  Desarrollador Full Stack. De Barcelona, España. Me encanta resolver problemas cotidianos con líneas de código.
+                </p>
               </div>
               <Button                
                 variant="primary"
