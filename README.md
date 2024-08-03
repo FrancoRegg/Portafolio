@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portafolio personal<br/>
+  Portafolio Personal<br/>
   <a href="https://francoreggiardo.netlify.app/" target="_blank">Franco.Dev</a>
 </h2>
 <div align="center">
