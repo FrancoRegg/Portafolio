@@ -15,9 +15,9 @@ function Home() {
             <Col md={7} className="home-header">
               <h1 className="heading-name">
                 ¡Hola, 
-                <span className="wave" role="img" aria-labelledby="wave">
+                {/*<span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
-                </span>
+                </span>*/}
                 <br/>soy<strong className="main-name"> Franco Reggiardo!</strong>
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}> 
