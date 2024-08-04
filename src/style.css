@@ -342,18 +342,6 @@ button:focus {
 }
 
 /* ---- Contact ---- */
-
-.home-about-section-contact {
-  position: relative;
-  padding-bottom: 15px !important;
-}
-
-.home-about-social-contact {
-  text-align: center !important;
-  padding-top: 15px;
-  color: white !important;
-}
-
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
