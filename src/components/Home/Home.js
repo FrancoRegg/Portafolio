@@ -35,7 +35,7 @@ function Home() {
               </Button>
               <ContactMe />
             </Col>
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} className="home-image">
               <img
                 src={homeLogo}
                 alt="home pic"
