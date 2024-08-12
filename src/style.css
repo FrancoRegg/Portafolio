@@ -358,9 +358,9 @@ button:focus {
   position: relative !important;
   padding-inline-start: 0 !important;
 }
-
-
 /*  ----------  */
+
+
 
 .home-about-section {
   position: relative;
@@ -446,17 +446,10 @@ button:focus {
   color: #2591ef;
 }
 
-.home-image{
-  padding-bottom: 20px;
+.img-fluid{
+  max-height: 450px;
 }
 
-@media (max-width: 430px) {
-  .home-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
 /* --------- */
 /* Footer background-color: rgb(10, 4, 22); */
 /* --------- */
@@ -475,16 +468,6 @@ button:focus {
   text-align: center !important;
 }
 
-@media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
-
-  .footer-body {
-    text-align: center !important;
-  }
-}
-
 .footer h3 {
   font-size: 1em;
   color: white !important;
@@ -500,6 +483,17 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
+@media (max-width: 767px) {
+  .footer-copywright {
+    text-align: center !important;
+  }
+
+  .footer-body {
+    text-align: center !important;
+  }
+}
+
 /* --------- */
 /* Projects */
 /* --------- */
