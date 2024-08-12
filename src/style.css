@@ -450,6 +450,12 @@ button:focus {
   max-height: 450px;
 }
 
+@media (max-width: 767px){
+  .home-image{
+    align-content: center;
+  }
+}
+
 /* --------- */
 /* Footer background-color: rgb(10, 4, 22); */
 /* --------- */
