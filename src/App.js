@@ -7,9 +7,9 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);
