@@ -449,13 +449,16 @@ button:focus {
 .img-fluid{
   max-height: 450px;
 }
+.home-image {
+  background-color: violet;
+}
 
-@media (max-width: 767px){
-  .home-image{
+@media (max-width: 767px) {
+  .home-image {
+    background-color: yellow !important;
     align-content: center;
   }
 }
-
 /* --------- */
 /* Footer background-color: rgb(10, 4, 22); */
 /* --------- */
