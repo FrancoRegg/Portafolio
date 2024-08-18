@@ -1,3 +1,4 @@
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -446,19 +447,10 @@ button:focus {
   color: #2591ef;
 }
 
-.img-fluid{
-  max-height: 450px;
-}
 .home-image {
-  background-color: violet;
+  align-content: center;
 }
 
-@media (max-width: 767px) {
-  .home-image {
-    background-color: yellow !important;
-    align-content: center;
-  }
-}
 /* --------- */
 /* Footer background-color: rgb(10, 4, 22); */
 /* --------- */
@@ -514,10 +506,7 @@ button:focus {
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding: 45px 25px !important;
   height: auto !important;
 }
 
