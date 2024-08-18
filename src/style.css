@@ -449,11 +449,10 @@ button:focus {
 
 .home-image {
   align-content: center !important;
-  background-color: violet;
 }
 
 @media (max-width: 767px) {
-  .home-image.col-md-5 {
+  .home-image {
   background-color: red !important
   }
 }
