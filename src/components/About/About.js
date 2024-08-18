@@ -28,7 +28,7 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <Aboutcard />
+            <Aboutcard /> 
           </Col>
         </Row>
         <h1 className="project-heading">
