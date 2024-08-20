@@ -450,11 +450,12 @@ button:focus {
     padding-top: 2em !important;
   }
   .home-header{
-    
+    padding-top: 75px !important;
   }
   .home-image {
     width: 250px !important;
     height: 250px !important;
+    display: none;
   }
 }
 .footer {
@@ -630,6 +631,9 @@ box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   .tech-icons {
     margin: 10px !important;
   }
+  .about-section{
+    padding-top: 75px !important;
+  }
 }
 /*border: 2.2px solid rgba(197, 115, 230, 0.883) !important;*/
 .tech-icons:hover {
@@ -654,9 +658,14 @@ box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   padding-left: 1px !important;
 }
 
+.about-img{
+  padding: 50px 25px;
+  align-content: center;
+}
+
 @media (max-width: 767px) {
   .about-img {
-    padding-top: 0 !important;
+    display: none !important;
   }
 }
 /* --------- */
