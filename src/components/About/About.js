@@ -14,7 +14,6 @@ function About() {
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={5}
-            style={{ paddingTop: "60px", paddingBottom: "50px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
