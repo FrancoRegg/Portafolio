@@ -3,7 +3,7 @@
   <a href="https://francoreggiardo.netlify.app/" target="_blank">Franco.Dev</a>
 </h2>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/3c3d2e3f-ad50-4595-af8c-411e761d23d2)>
+  <img src="https://github.com/user-attachments/assets/3c3d2e3f-ad50-4595-af8c-411e761d23d2)">
 </div>
 
 <br/>
