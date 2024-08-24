@@ -40,9 +40,8 @@ function About() {
           <strong className="yellow">Herramientas</strong> que uso
         </h1>
         <Toolstack />
-        <Contact />
-
         {/*<Github />*/}
+        <Contact />
       </Container>
     </Container>
   );
